@@ -46,6 +46,16 @@ main {
     padding: 20px;
 }
 
+.column-container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+
 section {
     margin-bottom: 30px;
 }
