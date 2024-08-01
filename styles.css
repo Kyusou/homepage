@@ -25,6 +25,17 @@ header {
 
 header h1 {
     margin-bottom: 10px;
+
+ .header {
+    background-image: url('images/header-background.jpg');
+    background-size: cover; /* 画像をヘッダーのサイズに合わせる */
+    background-position: center; /* 画像を中央に配置する */
+    height: 300px; /* ヘッダーの高さを設定する */
+    color: white; /* テキストの色を白に設定する */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 }
 
 nav ul {
